@@ -1,0 +1,2 @@
+Aqui tenemos un poco de texto creado desde nano
+el editor de texto instalado en ubuntu

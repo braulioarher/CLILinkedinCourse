@@ -1,0 +1,1 @@
+Hello this is a .txt file creted in vim editor and Iam going to be compressed
