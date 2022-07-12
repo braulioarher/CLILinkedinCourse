@@ -2,8 +2,4 @@
 read -ep "What is the depature place? " depvar
 read -ep "What is the destination place? " desvar
 read -ep "What file do you want to look in? " -i "Tourdetails.txt" filevar
-echo "The depature place is: $depvar"
-echo "The destination place is: $desvar"
-echo "The file to look in is: $filevar"
-awk '$2 == $depvar' Tourdetails.txt | awk '$3 == $desvar' | awk '{print $1 "\t" $2 "\t" $3 "\t" $4}'
-
+awk -v dep="$depvar" '$2 == dep' Tourdetails.txt | awk -v des="$desvar" '$3 == des' | awk '{print $1 "\t" $2 "\t" $3 "\t" $4}'
