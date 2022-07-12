@@ -1,0 +1,7 @@
+ToutId	Departure	Destination	TourStartDate	TourEndDate
+1	Guadalajara	Cancun		25-Oct-17	02-Nov-17
+2	Aguscalientes	Cancun		26-Oct-17	03-Nov-17	
+3	Guadalajara	Cancun		31-Oct-17	09-Nov-17
+4	Guadalajara	Aguascalientes	31-Oct-20	01-Nov-20
+5	Cancun		Guadalajara	25-Oct-17	02-Nov-17
+6	Guadalajara	Cancun		12-Jul-22	19-Jul-22
